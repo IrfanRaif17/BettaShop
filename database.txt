@@ -1,0 +1,29 @@
+# tb_admin 
+=============================================================
+1. admin_id		| int (11) primary key auto increment
+2. admin_name	| varchar (50)
+3. username		| varchar (50)
+4. password		| varchar (100)
+5. admin_telp	| varchar (20)
+6. admin_email	| varchar (50)
+7. admin_address	| text
+
+# tb_penjual 
+=============================================================
+1. penjual_id	| int (11) primary key auto increment
+2. penjual_name	| varchar (50)
+3. username		| varchar (50)
+4. password		| varchar (100)
+5. penjual_email	| varchar (50)
+6. penjual_no_hp	| int (50)
+7. penjual_no_wa	| int (50)
+8. penjual_alamat	| text
+
+# tb_pembeli 
+=============================================================
+1. pembeli_id	| int (11) primary key auto increment
+2. pembeli_name	| varchar (50)
+3. username		| varchar (50)
+4. password		| varchar (100)
+5. pembeli_email	| varchar (50)
+6. pembeli_alamat	| text
